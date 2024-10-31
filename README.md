@@ -18,7 +18,7 @@ Technologies Used
 - Currently working on the JavaScript component for a 5-star rating system.
 
 References/Sources:
-HTML Crash Course For Absolute Beginners - Traversy Media (YouTube)
-CSS Crash Course For Absolute Beginners - Traversy Media (YouTube)
-CodePen examples from class slides and professor’s resources
-Creating a Five-Star Rating System with JS, HTML, and CSS - Digital Fox (YouTube)
+- HTML Crash Course For Absolute Beginners - Traversy Media (YouTube)
+- CSS Crash Course For Absolute Beginners - Traversy Media (YouTube)
+- CodePen examples from class slides and professor’s resources
+- Creating a Five-Star Rating System with JS, HTML, and CSS - Digital Fox (YouTube)
