@@ -12,11 +12,9 @@ Technologies Used
 
 11/20 Update:
 - Updated project plan:
- > Initially planned to use a "filter" feature but decided instead to implement a 5-star rating system along with a section for reviews, feedback, and comments.
-> 
- > Adjusted the color accessibility and contrast of the header and background image/color based on the feedback provided by the TA in the last part (Part 2).
-
-> >> Time-line of sub-steps:
+- Initially planned to use a "filter" feature but decided instead to implement a 5-star rating system along with a section for reviews, feedback, and comments.
+- Adjusted the color accessibility and contrast of the header and background image/color based on the feedback provided by the TA in the last part (Part 2).
+- Time-line of sub-steps:
 1. Week 11/20 - 12/1: To finalize the content for every page, with a particular focus on the sidebar for key (tier 1) pages. Complete and refine the 5-star rating system and feedback section. Prepare code and comments for the code review.
 2. Week 12/2 - 12/8: To revise the project based on peer reviews and feedback from the professor/TA. Conduct a thorough final review.
 3. (Final) Week 12/9 - 12/15: To perform final testing, refine code and comments, and submit the completed project
