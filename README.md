@@ -17,6 +17,7 @@ Technologies Used
     1. Added a 5-star review feature.
     2. Implemented a feedback and submit option.
     3. Enabled a scroll-down feature to make the sidebar move dynamically with mouse movement.
+- Added and finalized comments in the code.
 
 
 11/20 Update:
