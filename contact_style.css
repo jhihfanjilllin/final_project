@@ -1,136 +1,223 @@
-body{
-    background-color: :#f4f4f4;
-    color:#555;
+/* General styling for the entire webpage */
+body {
+    background-color: #f4f4f4;
+    /* Light gray background for a clean look */
+    color: #555;
+    /* Dark gray text for readability */
     font-family: Arial, Helvetica, sans-serif;
-    font-size:16px;
-    line-height:1.6em;
-    margin:0;
-}
-
-.container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
-}
-
-#main-header{
-    background-color:coral;
-    color:#fff;
-}
-
-#navbar{
-    background-color: #333;
-    color:#fff;
-}
-
-#navbar ul{
-    padding:0;
-    list-style: none;
-}
-
-#navbar li {
-    display:inline;
-}
-
-#navbar a{
-    color:#fff;
-    text-decoration: none;
-    font-size:18px;
-    padding-right:15px;
-}
-
-#showcase{
-    background-image:url('images/contact.jpg') ;
-    background-position: center right;
-    height:300px;
-    margin-bottom:30px;
-    text-align:center;
-}
-
-#showcase h1{
-    color:#fff;
-    font-size:50px;
+    /* Sans-serif font for better readability */
+    font-size: 16px;
+    /* Base font size */
     line-height: 1.6em;
-    padding-top:30px;
+    /* Line spacing for readability */
+    margin: 0;
+    /* Remove default browser margin */
 }
 
+/* Container class to center content and control width */
+.container {
+    width: 80%;
+    /* Content occupies 80% of the viewport width */
+    margin: auto;
+    /* Center-align the container horizontally */
+    overflow: hidden;
+    /* Prevent content from overflowing */
+}
+
+/* Header section styling */
+#main-header {
+    background-color: coral;
+    /* Coral background for a bright, vibrant header */
+    color: #fff;
+    /* White text for contrast against the background */
+}
+
+/* Navigation bar styling */
+#navbar {
+    background-color: #333;
+    /* Dark gray background for the navigation bar */
+    color: #fff;
+    /* White text for contrast */
+}
+
+/* Remove padding and bullets from the navigation list */
+#navbar ul {
+    padding: 0;
+    /* Remove default padding */
+    list-style: none;
+    /* Remove bullets from the list */
+}
+
+/* Display navigation items inline for horizontal layout */
+#navbar li {
+    display: inline;
+    /* Align navigation items horizontally */
+}
+
+/* Styling for navigation links */
+#navbar a {
+    color: #fff;
+    /* White text for visibility */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-size: 18px;
+    /* Larger font size for better readability */
+    padding-right: 15px;
+    /* Space between navigation links */
+}
+
+/* Showcase section for visual impact */
+#showcase {
+    background-image: url('images/contact.jpg');
+    /* Background image for the showcase section */
+    background-position: center right;
+    /* Position the image to the right */
+    height: 300px;
+    /* Fixed height for the showcase section */
+    margin-bottom: 30px;
+    /* Space below the showcase */
+    text-align: center;
+    /* Center-align the text */
+}
+
+/* Styling for the main heading inside the showcase */
+#showcase h1 {
+    color: #fff;
+    /* White text for high contrast against the background */
+    font-size: 50px;
+    /* Large font size for prominence */
+    line-height: 1.6em;
+    /* Adjust line spacing */
+    padding-top: 30px;
+    /* Add spacing above the heading */
+}
+
+/* Styling for the subheading inside the showcase */
 #showcase h2 {
     color: #fff;
+    /* White text for visibility */
     font-size: 20px;
+    /* Smaller font size than the main heading */
 }
 
-#main{
-    float:left;
-    width:70%;
+/* Main content section styling */
+#main {
+    float: left;
+    /* Align main content to the left */
+    width: 70%;
+    /* Occupy 70% of the container width */
     padding: 0 30px;
+    /* Add padding on the sides */
     box-sizing: border-box;
+    /* Include padding in the width */
 }
 
-
-#main-footer{
-    background-color:#333;
-    color:#fff;
+/* Footer section styling */
+#main-footer {
+    background-color: #333;
+    /* Dark gray background for the footer */
+    color: #fff;
+    /* White text for contrast */
     text-align: center;
-    padding:20px;
-    margin-top:40px;
+    /* Center-align the text */
+    padding: 20px;
+    /* Add padding around the text */
+    margin-top: 40px;
+    /* Space above the footer */
 }
 
-@media(max-width:600px){
-    #main{
-        width:100%;
-        float:none;
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    #main {
+        width: 100%;
+        /* Main content takes full width on small screens */
+        float: none;
+        /* Remove floating for stacking */
     }
 }
 
-/* below is for form's style */ 
+/* Styling for the contact form */
 form {
     width: 100%;
+    /* Form takes the full width of its container */
     max-width: 600px;
+    /* Maximum width of 600px for better readability */
     margin: 0 auto;
+    /* Center-align the form */
     padding: 20px;
+    /* Padding around the form content */
     border-radius: 8px;
+    /* Rounded corners for a modern look */
     background-color: #f4f4f4;
+    /* Light gray background for the form */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
 }
 
+/* Styling for individual form fields */
 form div {
     margin-bottom: 15px;
+    /* Space below each field */
 }
 
+/* Styling for labels */
 label {
     display: block;
+    /* Display labels as block elements */
     font-weight: bold;
+    /* Bold text for labels */
     margin-bottom: 5px;
+    /* Space below the label */
 }
 
+/* Styling for text inputs, textareas, and dropdowns */
 input,
 textarea,
 select {
     width: 100%;
+    /* Fields occupy the full width of the form */
     padding: 10px;
+    /* Padding inside the fields */
     border: 1px solid #ccc;
+    /* Light gray border */
     border-radius: 4px;
+    /* Rounded corners for inputs */
     box-sizing: border-box;
+    /* Include padding in width */
 }
 
+/* Styling for the submit button */
 input[type="submit"] {
     background-color: #4CAF50;
+    /* Green background for the button */
     color: white;
+    /* White text for contrast */
     border: none;
+    /* Remove default border */
     cursor: pointer;
+    /* Change cursor to pointer on hover */
     padding: 12px 20px;
+    /* Padding inside the button */
     font-size: 16px;
+    /* Font size for button text */
     border-radius: 4px;
+    /* Rounded corners for the button */
 }
 
+/* Hover effect for the submit button */
 input[type="submit"]:hover {
     background-color: #45a049;
+    /* Darker green for hover state */
 }
 
+/* Styling for the textarea field */
 textarea {
     height: 100px;
+    /* Set a fixed height for textareas */
 }
 
+/* Styling for dropdown menus */
 select {
     width: 100%;
+    /* Dropdown occupies the full width of the form */
 }

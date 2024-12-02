@@ -1,124 +1,134 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Title displayed on the browser tab -->
     <title>Jill's Final Project - Fitness Roster</title>
+    <!-- Link to the external stylesheet for the Cardio page -->
     <link rel="stylesheet" type="text/css" href="cardio_style.css" />
   </head>
   <body>
+    <!-- Header section containing the website's main title -->
     <header id="main-header">
       <div class="container">
         <h1>Fitness Roaster</h1>
+        <!-- Website's main title -->
       </div>
     </header>
 
-<nav id="navbar">
+    <!-- Navigation bar for site navigation -->
+    <nav id="navbar">
       <div class="container">
         <ul>
-          <li>
-            <a
-              href="file:///Users/jhihfan/Desktop/LIS640_Web%20Development/html/Final%20JS%20Project/Home.html"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              href="file:///Users/jhihfan/Desktop/LIS640_Web%20Development/html/Final%20JS%20Project/About.html"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              href="file:///Users/jhihfan/Desktop/LIS640_Web%20Development/html/Final%20JS%20Project/Categories.html"
-              >Workout Categories</a
-            >
-          </li>
-          <li>
-            <a
-              href="file:///Users/jhihfan/Desktop/LIS640_Web%20Development/html/Final%20JS%20Project/News.html"
-              >News</a
-            >
-          </li>
-          <li>
-            <a
-              href="file:///Users/jhihfan/Desktop/LIS640_Web%20Development/html/Final%20JS%20Project/Contact.html"
-              >Contact</a
-            >
-          </li>
+          <!-- Navigation links updated to relative paths -->
+          <li><a href="Home.html">Home</a></li>
+          <!-- Link to Home page -->
+          <li><a href="About.html">About</a></li>
+          <!-- Link to About page -->
+          <li><a href="Categories.html">Workout Categories</a></li>
+          <!-- Link to Workout Categories page -->
+          <li><a href="News.html">News</a></li>
+          <!-- Link to News page -->
+          <li><a href="Contact.html">Contact</a></li>
+          <!-- Link to Contact page -->
         </ul>
       </div>
     </nav>
 
+    <!-- Showcase section to introduce the Cardio page -->
     <section id="showcase">
       <div class="container">
         <h1>Cardio Workouts</h1>
+        <!-- Page-specific heading -->
       </div>
     </section>
 
+    <!-- Main content section -->
     <div class="container">
       <section id="main">
         <h2>Cardio Workouts</h2>
+        <!-- Introductory paragraph about cardio workouts -->
         <p>
           Cardio workouts are essential for maintaining heart health, burning
-          calories, and boosting endurance. Whether you're a beginner or a
-          seasoned athlete, incorporating a variety of cardio exercises into
-          your fitness routine can help you stay in shape, improve stamina, and
-          make your workouts more enjoyable. Below are some popular cardio
+          calories, and boosting endurance. Below are some popular cardio
           options:
         </p>
-        
-          <h3><li>High-intensity interval training (HIIT)</li></h3>
-          <p>
-            HIIT involves alternating between short bursts of intense activity
-            and periods of rest or low-intensity exercise. This workout is
-            highly effective for burning calories in a short amount of time and
-            boosting metabolism. HIIT can be tailored to any fitness level and
-            can be performed with minimal equipment, such as using bodyweight
-            exercises like squats, burpees, and push-ups.
-          </p>
-          Benefits of HIIT include: burning calories quickly, increasing metabolism for hours post-workout, improving cardiovascular fitness, and building lean muscle while shedding fat.
-          <h3><li>Running, cycling, swimming</h3></li>
-          <p>These classic forms of cardio are effective for building endurance and improving overall fitness. Whether you're hitting the pavement, biking through scenic trails, or doing laps in the pool, these activities offer a low-cost way to get your heart rate up.</p>
-          Benefits of running, cycling, and swimming include: improving endurance and cardiovascular health, strengthening muscles and bones, the ability to be done solo or in groups, and customizable intensity levels.
-          <h3><li>Dance-based cardio (Zumba, aerobics)</h3></li>
-          <p>If you love to dance and want to make cardio fun, dance-based workouts like Zumba and aerobics are perfect. These group classes, often set to high-energy music, combine easy-to-follow dance moves with cardio exercises to create a dynamic workout.</p>
-          <p><h4>Zumba:</h4> A fusion of Latin-inspired dance moves with a fitness routine that's engaging and effective. Zumba sessions are typically one hour long and focus on different rhythms, including salsa, merengue, and reggaeton.</p>
-          <p><h4>Aerobics:</p></h4> Aerobics classes mix rhythmic dance moves with traditional cardio exercises like jumping jacks and step sequences. It’s a great way to improve coordination, balance, and cardiovascular endurance.</p>
-          Benefits of dance-based cardio include: it's fun and motivating, boosts coordination and agility, is an effective calorie burner, and is suitable for all fitness levels.
+
+        <!-- HIIT Section -->
+        <h3><li>High-intensity interval training (HIIT)</li></h3>
+        <p>
+          HIIT involves alternating between short bursts of intense activity and
+          periods of rest or low-intensity exercise.
+        </p>
+        <ul>
+          <li>Burning calories quickly</li>
+          <li>Boosting metabolism post-workout</li>
+          <li>Improving cardiovascular fitness</li>
+          <li>Building lean muscle</li>
+        </ul>
+
+        <!-- Running, cycling, swimming Section -->
+        <h3><li>Running, cycling, swimming</li></h3>
+        <p>
+          These classic forms of cardio are effective for building endurance and
+          improving overall fitness.
+        </p>
+        <ul>
+          <li>Improving cardiovascular health</li>
+          <li>Strengthening muscles and bones</li>
+          <li>Customizable intensity levels</li>
+        </ul>
+
+        <!-- Dance-based cardio Section -->
+        <h3><li>Dance-based cardio (Zumba, aerobics)</li></h3>
+        <p>
+          Dance-based workouts like Zumba and aerobics combine dance moves with
+          cardio exercises to create a dynamic and fun workout.
+        </p>
+        <ul>
+          <li>Boosts coordination and agility</li>
+          <li>Effective calorie burner</li>
+          <li>Suitable for all fitness levels</li>
         </ul>
       </section>
     </div>
 
+    <!-- Comment and rating section -->
     <div class="container">
       <section id="comment">
         <h2>Comment</h2>
         <div>
-        <label for="message">Message/Feedback</label>
-        <textarea
-          name="message"
-          id="message"
-          placeholder="Leave your comment/feedback here"
-        ></textarea>
-      </div>
-
-      <div class="ratings-wrapper">
-        <section id="star-rating">
-          <div data-productid="39" class="ratings">
-          <span data-rating="5">&#9733;</span>
-          <span data-rating="4">&#9733;</span>
-          <span data-rating="3">&#9733;</span>
-          <span data-rating="2">&#9733;</span>
-          <span data-rating="1">&#9733;</span>
+          <label for="message">Message/Feedback</label>
+          <!-- Textarea for user feedback -->
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Leave your comment/feedback here"
+          ></textarea>
         </div>
-        </section>
-      </div>
-            <input type="submit" name="submit" value="Submit" />
 
+        <!-- Star rating section -->
+        <div class="ratings-wrapper">
+          <section id="star-rating">
+            <div data-productid="39" class="ratings">
+              <span data-rating="5">&#9733;</span>
+              <span data-rating="4">&#9733;</span>
+              <span data-rating="3">&#9733;</span>
+              <span data-rating="2">&#9733;</span>
+              <span data-rating="1">&#9733;</span>
+            </div>
+          </section>
+        </div>
+        <!-- Submit button -->
+        <input type="submit" name="submit" value="Submit" />
+      </section>
+    </div>
 
+    <!-- Footer section -->
     <footer id="main-footer">
-      <p>Copyright &copy; 2024 Jill's Website - Fitness Roaster</p>
+      <p>&copy; 2024 Jill's Website - Fitness Roaster</p>
     </footer>
 
-    <!-- Link to my JavaScript file -->
+    <!-- Link to external JavaScript file -->
     <script src="cardio.js"></script>
   </body>
 </html>

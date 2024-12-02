@@ -1,91 +1,152 @@
-body{
-    background-color: :#f4f4f4;
-    color:#555;
+/* General styling for the entire webpage */
+body {
+    background-color: #f4f4f4;
+    /* Light gray background for a clean, professional look */
+    color: #555;
+    /* Dark gray text color for readability */
     font-family: Arial, Helvetica, sans-serif;
-    font-size:16px;
-    line-height:1.6em;
-    margin:0;
-}
-
-.container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
-}
-
-#main-header{
-    background-color:coral;
-    color:#fff;
-}
-
-#navbar{
-    background-color: #333;
-    color:#fff;
-}
-
-#navbar ul{
-    padding:0;
-    list-style: none;
-}
-
-#navbar li {
-    display:inline;
-}
-
-#navbar a{
-    color:#fff;
-    text-decoration: none;
-    font-size:18px;
-    padding-right:15px;
-}
-
-#showcase{
-    background-image:url('images/news.jpg') ;
-    background-position: center right;
-    height:300px;
-    margin-bottom:30px;
-    text-align:center;
-}
-
-#showcase h1{
-    color:rgb(96, 18, 91);
-    font-size:50px;
+    /* Use a sans-serif font for better legibility */
+    font-size: 16px;
+    /* Base font size for the webpage */
     line-height: 1.6em;
-    padding-top:30px;
+    /* Line spacing for improved readability */
+    margin: 0;
+    /* Remove default margin around the page */
 }
 
-#main{
-    float:left;
-    width:70%;
-    padding: 0 30px;
-    box-sizing: border-box;
+/* Container for centering and controlling the width of content */
+.container {
+    width: 80%;
+    /* Content occupies 80% of the viewport width */
+    margin: auto;
+    /* Center-align the container horizontally */
+    overflow: hidden;
+    /* Prevent overflow issues from floated elements */
 }
 
-#sidebar{
-    float:right;
-    width:30%;
-    background:#333;
+/* Header section styling */
+#main-header {
+    background-color: coral;
+    /* Bright coral background for emphasis */
     color: #fff;
-    padding: 0 30px;
-    box-sizing: border-box;
+    /* White text for contrast with the background */
 }
 
-#main-footer{
-    background-color:#333;
-    color:#fff;
+/* Navigation bar styling */
+#navbar {
+    background-color: #333;
+    /* Dark gray background for the navigation bar */
+    color: #fff;
+    /* White text color for visibility */
+}
+
+/* Remove padding and bullets from the navigation menu */
+#navbar ul {
+    padding: 0;
+    /* Remove default padding */
+    list-style: none;
+    /* Remove list bullets */
+}
+
+/* Display navigation items inline for a horizontal menu */
+#navbar li {
+    display: inline;
+    /* Align navigation items horizontally */
+}
+
+/* Styling for navigation links */
+#navbar a {
+    color: #fff;
+    /* White text for better visibility */
+    text-decoration: none;
+    /* Remove underlines from links */
+    font-size: 18px;
+    /* Slightly larger font size for navigation links */
+    padding-right: 15px;
+    /* Space between navigation items */
+}
+
+/* Showcase section for a visually appealing header area */
+#showcase {
+    background-image: url('images/news.jpg');
+    /* Background image for the showcase section */
+    background-position: center right;
+    /* Align the image to the right center */
+    height: 300px;
+    /* Fixed height for the showcase section */
+    margin-bottom: 30px;
+    /* Add spacing below the showcase */
     text-align: center;
-    padding:20px;
-    margin-top:40px;
+    /* Center-align the text in the section */
 }
 
-@media(max-width:600px){
-    #main{
-        width:100%;
-        float:none;
+/* Styling for the main heading inside the showcase section */
+#showcase h1 {
+    color: rgb(96, 18, 91);
+    /* Dark purple color for the text */
+    font-size: 50px;
+    /* Large font size for prominence */
+    line-height: 1.6em;
+    /* Adjust spacing between lines */
+    padding-top: 30px;
+    /* Space above the heading text */
+}
+
+/* Main content area styling */
+#main {
+    float: left;
+    /* Align the main content to the left */
+    width: 70%;
+    /* Occupy 70% of the container width */
+    padding: 0 30px;
+    /* Add padding on the sides */
+    box-sizing: border-box;
+    /* Include padding and border in the element's width */
+}
+
+/* Sidebar section styling */
+#sidebar {
+    float: right;
+    /* Align the sidebar to the right */
+    width: 30%;
+    /* Occupy 30% of the container width */
+    background: #333;
+    /* Dark background for contrast */
+    color: #fff;
+    /* White text for visibility */
+    padding: 0 30px;
+    /* Add padding to the sides */
+    box-sizing: border-box;
+    /* Include padding and border in the element's width */
+}
+
+/* Footer section styling */
+#main-footer {
+    background-color: #333;
+    /* Dark gray background for the footer */
+    color: #fff;
+    /* White text for contrast */
+    text-align: center;
+    /* Center-align the footer text */
+    padding: 20px;
+    /* Add padding around the text */
+    margin-top: 40px;
+    /* Add spacing above the footer */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    #main {
+        width: 100%;
+        /* Main content takes full width on smaller screens */
+        float: none;
+        /* Remove floating for stacking layout */
     }
 
-    #sidebar{
-        width:100%;
-        float:none;
+    #sidebar {
+        width: 100%;
+        /* Sidebar takes full width on smaller screens */
+        float: none;
+        /* Remove floating for stacking layout */
     }
 }

@@ -1,94 +1,153 @@
-body{
-    background-color: :#f4f4f4;
-    color:#555;
+/* General styles for the entire body */
+body {
+    background-color: #f4f4f4;
+    /* Light gray background for a clean look */
+    color: #555;
+    /* Dark gray text for good contrast */
     font-family: Arial, Helvetica, sans-serif;
-    font-size:16px;
-    line-height:1.6em;
-    margin:0;
-}
-
-.container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
-}
-
-#main-header{
-    background-color:coral;
-    color:#fff;
-}
-
-#navbar{
-    background-color: #333;
-    color:#fff;
-}
-
-#navbar ul{
-    padding:0;
-    list-style: none;
-}
-
-#navbar li {
-    display:inline;
-}
-
-#navbar a{
-    color:#fff;
-    text-decoration: none;
-    font-size:18px;
-    padding-right:15px;
-}
-
-#showcase{
-    background-image:url('images/categories.jpg') ;
-    background-position: center right;
-    height:300px;
-    margin-bottom:30px;
-    text-align:center;
-}
-
-#showcase h1{
-    color:#886464e4;
-    font-size:50px;
+    /* Sans-serif font for readability */
+    font-size: 16px;
+    /* Base font size */
     line-height: 1.6em;
-    padding-top:30px;
+    /* Line spacing for better readability */
+    margin: 0;
+    /* Remove default browser margin */
 }
 
-#main{
-    float:left;
-    width:70%;
+/* Container to center and control the width of content */
+.container {
+    width: 80%;
+    /* Content takes up 80% of the screen width */
+    margin: auto;
+    /* Center the container horizontally */
+    overflow: hidden;
+    /* Prevent overflow issues with floated elements */
+}
+
+/* Styles for the main header section */
+#main-header {
+    background-color: coral;
+    /* Coral background for visibility */
+    color: #fff;
+    /* White text for contrast */
+}
+
+/* Styles for the navigation bar */
+#navbar {
+    background-color: #333;
+    /* Dark background for contrast */
+    color: #fff;
+    /* White text */
+}
+
+/* Remove default list padding and bullets in the navigation menu */
+#navbar ul {
+    padding: 0;
+    /* Remove default padding */
+    list-style: none;
+    /* Remove bullets from the list */
+}
+
+/* Style for navigation items */
+#navbar li {
+    display: inline;
+    /* Display list items inline for horizontal layout */
+}
+
+/* Style for navigation links */
+#navbar a {
+    color: #fff;
+    /* White text for links */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-size: 18px;
+    /* Slightly larger font size for better readability */
+    padding-right: 15px;
+    /* Space between navigation links */
+}
+
+/* Showcase section for attention-grabbing content */
+#showcase {
+    background-image: url('images/categories.jpg');
+    /* Background image for the showcase */
+    background-position: center right;
+    /* Position the image */
+    height: 300px;
+    /* Set the height of the showcase */
+    margin-bottom: 30px;
+    /* Add space below the section */
+    text-align: center;
+    /* Center the content */
+}
+
+/* Styling for the showcase heading */
+#showcase h1 {
+    color: #886464e4;
+    /* Muted text color */
+    font-size: 50px;
+    /* Large font size for prominence */
+    line-height: 1.6em;
+    /* Adjust line spacing */
+    padding-top: 30px;
+    /* Space above the heading */
+}
+
+/* Main content section */
+#main {
+    float: left;
+    /* Align to the left */
+    width: 70%;
+    /* Occupy 70% of the container width */
     padding: 0 30px;
+    /* Add padding on left and right */
     box-sizing: border-box;
+    /* Include padding and border in width */
 }
 
+/* Sidebar section */
 #sidebar {
     float: right;
+    /* Align to the right */
     width: 30%;
+    /* Occupy 30% of the container width */
     background: #333;
+    /* Dark background */
     color: #fff;
+    /* White text */
     padding: 0 30px;
+    /* Add padding on left and right */
     box-sizing: border-box;
+    /* Include padding and border in width */
     position: sticky;
-    /* Makes the sidebar scroll with the page */
+    /* Sidebar stays visible while scrolling */
     top: 0;
-    /* Keeps it stuck to the top of the viewport when scrolling */
+    /* Stick to the top of the viewport */
     height: fit-content;
-    /* Ensures the sidebar doesn't overflow */
+    /* Adjust height to fit content */
 }
 
-#main-footer{
-    background-color:#333;
-    color:#fff;
+/* Footer section */
+#main-footer {
+    background-color: #333;
+    /* Dark background for footer */
+    color: #fff;
+    /* White text for contrast */
     text-align: center;
-    padding:20px;
-    margin-top:40px;
+    /* Center the text */
+    padding: 20px;
+    /* Add padding around the text */
+    margin-top: 40px;
+    /* Space above the footer */
 }
 
-@media(max-width:600px) {
+/* Responsive design for small screens */
+@media (max-width: 600px) {
     #sidebar {
         width: 100%;
+        /* Sidebar takes full width on small screens */
         float: none;
+        /* Remove floating */
         position: static;
-        /* Disables sticky behavior on smaller screens */
+        /* Disable sticky behavior */
     }
 }

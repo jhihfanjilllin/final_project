@@ -1,76 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jill's Final Project - Fitness Roster</title>
+    <!-- Title that appears on the browser tab -->
+    <title>Jill's Final Project - Fitness Roaster</title>
+    <!-- Link to the external stylesheet for the Contact page -->
     <link rel="stylesheet" type="text/css" href="contact_style.css" />
   </head>
   <body>
+    <!-- Header section containing the website's title -->
     <header id="main-header">
       <div class="container">
         <h1>Fitness Roaster</h1>
+        <!-- Main title of the website -->
       </div>
     </header>
 
+    <!-- Navigation bar for website navigation -->
     <nav id="navbar">
       <div class="container">
         <ul>
-          <li>
-            <a
-              href="file:///Users/jhihfan/Desktop/LIS640_Web%20Development/html/Final%20JS%20Project/Home.html"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              href="file:///Users/jhihfan/Desktop/LIS640_Web%20Development/html/Final%20JS%20Project/About.html"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              href="file:///Users/jhihfan/Desktop/LIS640_Web%20Development/html/Final%20JS%20Project/Categories.html"
-              >Workout Categories</a
-            >
-          </li>
-          <li>
-            <a
-              href="file:///Users/jhihfan/Desktop/LIS640_Web%20Development/html/Final%20JS%20Project/News.html"
-              >News</a
-            >
-          </li>
-          <li>
-            <a
-              href="file:///Users/jhihfan/Desktop/LIS640_Web%20Development/html/Final%20JS%20Project/Contact.html"
-              >Contact</a
-            >
-          </li>
+          <!-- Navigation links updated to relative paths -->
+          <li><a href="Home.html">Home</a></li>
+          <!-- Link to the Home page -->
+          <li><a href="About.html">About</a></li>
+          <!-- Link to the About page -->
+          <li><a href="Categories.html">Workout Categories</a></li>
+          <!-- Link to the Workout Categories page -->
+          <li><a href="News.html">News</a></li>
+          <!-- Link to the News page -->
+          <li><a href="Contact.html">Contact</a></li>
+          <!-- Link to the Contact page -->
         </ul>
       </div>
     </nav>
 
+    <!-- Showcase section with the Contact page heading -->
     <section id="showcase">
       <div class="container">
         <h1>Contact Us</h1>
+        <!-- Main heading for the Contact page -->
         <h2>We Value Your Opinion / Feedback!</h2>
+        <!-- Subheading for the Contact form -->
       </div>
     </section>
 
+    <!-- Contact form for collecting user feedback -->
     <form>
+      <!-- Input for first name -->
       <div>
         <label for="firstName">First Name</label>
         <input type="text" name="firstName" id="firstName" />
       </div>
       <br />
+      <!-- Input for last name -->
       <div>
         <label for="lastName">Last Name</label>
         <input type="text" name="lastName" id="lastName" />
       </div>
       <br />
+      <!-- Input for email address -->
       <div>
         <label for="email">Email</label>
         <input type="email" name="email" id="email" />
       </div>
       <br />
+      <!-- Text area for user message or feedback -->
       <div>
         <label for="message">Message/Feedback</label>
         <textarea
@@ -80,6 +74,7 @@
         ></textarea>
       </div>
       <br />
+      <!-- Dropdown for gender selection -->
       <div>
         <label for="gender">Gender</label>
         <select name="gender" id="gender">
@@ -89,21 +84,25 @@
         </select>
       </div>
       <br />
+      <!-- Input for age -->
       <div>
         <label for="age">Age</label>
         <input type="number" name="age" id="age" value="25" />
       </div>
       <br />
+      <!-- Input for birthday -->
       <div>
         <label for="birthday">Birthday</label>
         <input type="date" name="birthday" id="birthday" />
       </div>
       <br />
+      <!-- Submit button for the form -->
       <input type="submit" name="submit" value="Submit" />
     </form>
 
+    <!-- Footer section with copyright information -->
     <footer id="main-footer">
-      <p>Copyright &copy; 2024 Jill's Website - Fitness Roaster</p>
+      <p>&copy; 2024 Jill's Website - Fitness Roaster</p>
     </footer>
   </body>
 </html>
