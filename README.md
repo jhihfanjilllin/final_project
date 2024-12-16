@@ -13,6 +13,7 @@ Technologies Used
 
 12/15 Update:
 - Finalized the content for all pages.
+- Adjusted background images and positioning.
 - Completed testing of all functions and features (e.g., clicking, external links, etc.).
 - Addressed feedback from peer code review to improve functionality and code quality.
 
