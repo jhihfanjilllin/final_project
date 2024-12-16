@@ -1,0 +1,216 @@
+/* General styling for the webpage */
+body {
+    background-color: #f4f4f4;
+    /* Light gray background for a clean and modern look */
+    color: #555;
+    /* Dark gray text for readability */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Use sans-serif font for better legibility */
+    font-size: 16px;
+    /* Base font size for the text */
+    line-height: 1.6em;
+    /* Adjust spacing between lines for readability */
+    margin: 0;
+    /* Remove default browser margin for consistency */
+}
+
+/* General container to center content and control width */
+.container {
+    width: 80%;
+    /* Set the width of the container to 80% of the viewport */
+    margin: auto;
+    /* Center-align the container horizontally */
+    overflow: hidden;
+    /* Prevent floated elements from causing overflow */
+}
+
+/* Header section styling */
+#main-header {
+    background-color: coral;
+    /* Coral background for visibility */
+    color: #fff;
+    /* White text for contrast */
+}
+
+/* Navigation bar styling */
+#navbar {
+    background-color: #333;
+    /* Dark gray background for the navbar */
+    color: #fff;
+    /* White text for better contrast and visibility */
+}
+
+/* Remove padding and bullets from the navigation menu */
+#navbar ul {
+    padding: 0;
+    /* Remove default padding */
+    list-style: none;
+    /* Remove bullet points from the list items */
+}
+
+/* Display navigation items inline for a horizontal menu */
+#navbar li {
+    display: inline;
+    /* Align list items horizontally */
+}
+
+/* Styling for navigation links */
+#navbar a {
+    color: #fff;
+    /* White text color for links */
+    text-decoration: none;
+    /* Remove underlines from links */
+    font-size: 18px;
+    /* Increase font size for better readability */
+    padding-right: 15px;
+    /* Add space between navigation links */
+}
+
+/* Showcase section for a visually appealing page header */
+#showcase {
+    background-image: url('images/cardio.jpg');
+    /* Background image for the showcase section */
+    background-position: center right;
+    /* Align the image to the center-right */
+    height: 300px;
+    /* Set the height of the showcase section */
+    margin-bottom: 30px;
+    /* Add space below the section */
+    text-align: center;
+    /* Center-align the text inside the section */
+}
+
+/* Styling for the main heading inside the showcase section */
+#showcase h1 {
+    color: #fff;
+    /* White text for better visibility */
+    font-size: 50px;
+    /* Large font size for prominence */
+    line-height: 1.6em;
+    /* Adjust line spacing */
+    padding-top: 30px;
+    /* Add spacing above the heading */
+}
+
+/* Main content section styling */
+#main {
+    float: left;
+    /* Align the main content to the left */
+    width: 70%;
+    /* Occupy 70% of the container's width */
+    padding: 0 30px;
+    /* Add padding to the sides */
+    box-sizing: border-box;
+    /* Include padding and border in the element's width */
+}
+
+/* Sidebar section styling */
+#sidebar {
+    float: right;
+    /* Align the sidebar to the right */
+    width: 30%;
+    /* Occupy 30% of the container's width */
+    background: #333;
+    /* Dark gray background for the sidebar */
+    color: #fff;
+    /* White text for contrast */
+    padding: 0 30px;
+    /* Add padding to the sides */
+    box-sizing: border-box;
+    /* Include padding and border in the element's width */
+}
+
+/* Footer section styling */
+#main-footer {
+    background-color: #333;
+    /* Dark gray background for the footer */
+    color: #fff;
+    /* White text for better contrast */
+    text-align: center;
+    /* Center-align the text in the footer */
+    padding: 20px;
+    /* Add padding around the text */
+    margin-top: 40px;
+    /* Add space above the footer */
+}
+
+/* Responsive design for screens smaller than 600px */
+@media (max-width: 600px) {
+    #main {
+        width: 100%;
+        /* Main content takes full width on smaller screens */
+        float: none;
+        /* Remove floating for stacking layout */
+    }
+
+    #sidebar {
+        width: 100%;
+        /* Sidebar takes full width on smaller screens */
+        float: none;
+        /* Remove floating for stacking layout */
+    }
+}
+
+/* Styling for the comment textarea */
+#comment textarea {
+    width: 100%;
+    /* Full width of the container */
+    height: 100px;
+    /* Fixed height for the textarea */
+    margin-bottom: 15px;
+    /* Space below the textarea */
+    border-radius: 4px;
+    /* Rounded corners for modern appearance */
+    border: 1px solid #ccc;
+    /* Light gray border */
+    padding: 10px;
+    /* Padding inside the textarea */
+    box-sizing: border-box;
+    /* Include padding and border in the element's width */
+}
+
+/* Wrapper for the ratings component */
+.ratings-wrapper {
+    margin-bottom: 20px;
+    /* Space below the ratings section */
+    padding: 0 10px;
+    /* Padding on the sides */
+    display: inline-block;
+    /* Inline block to align with other elements */
+}
+
+/* Styling for the star ratings container */
+.ratings {
+    display: flex;
+    /* Use flexbox for alignment */
+    flex-direction: row-reverse;
+    /* Reverse the order of stars */
+    cursor: pointer;
+    /* Change cursor to pointer for interactivity */
+}
+
+/* Individual star styling */
+.ratings span {
+    transition: color 0.2s, transform 0.2s;
+    /* Smooth transition for hover effects */
+    font-size: 30px;
+    /* Large font size for stars */
+    color: #ccc;
+    /* Default gray color for stars */
+}
+
+/* Styling for hovered stars */
+.ratings span:hover,
+.ratings span:hover~span {
+    color: yellow;
+    /* Yellow color for hovered stars */
+    transform: scale(1.3);
+    /* Enlarge hovered stars */
+}
+
+/* Styling for selected stars */
+.ratings span.selected,
+.ratings span.selected~span {
+    color: yellow;
+    /* Yellow color for selected stars */
+}
