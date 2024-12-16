@@ -70,7 +70,7 @@ body {
 #showcase {
     background-image: url('images/about.jpg');
     /* Background image for the showcase section */
-    background-position: center right;
+    background-position: center;
     /* Align the image to the center-right */
     height: 300px;
     /* Set the height of the showcase section */
