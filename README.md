@@ -11,6 +11,12 @@ Technologies Used
 - JavaScript: Interactivity
 
 
+12/15 Update:
+- Finalized the content for all pages.
+- Completed testing of all functions and features (e.g., clicking, external links, etc.).
+- Addressed feedback from peer code review to improve functionality and code quality.
+
+
 12/1 Update:
 - Updated the sidebar content across all pages.
 - Enhanced the JavaScript functionality:
