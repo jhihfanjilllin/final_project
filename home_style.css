@@ -1,4 +1,4 @@
-/* General styling for the entire body of the webpage */
+/* General styling for the entire body of the webpage - Home Page */
 body {
     background-color: #f4f4f4;
     /* Light gray background for a clean, modern look */
@@ -70,7 +70,7 @@ body {
 #showcase {
     background-image: url('images/showcase.jpg');
     /* Background image for visual impact */
-    background-position: center right;
+    background-position: center;
     /* Position the background image */
     height: 300px;
     /* Fixed height for the showcase area */
