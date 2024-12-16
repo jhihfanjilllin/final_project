@@ -1,4 +1,4 @@
-/* General styling for the entire webpage */
+/* General styling for the entire webpage - Submit Page */
 body {
     background-color: #f4f4f4;
     /* Light gray background for a clean look */
@@ -82,7 +82,7 @@ body {
 
 /* Styling for the main heading inside the showcase */
 #showcase h1 {
-    color: #fff;
+    color: grey;
     /* White text for high contrast against the background */
     font-size: 50px;
     /* Large font size for prominence */
